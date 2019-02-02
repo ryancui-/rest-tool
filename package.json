@@ -1,0 +1,33 @@
+{
+  "name": "rest-tool",
+  "version": "1.0.0",
+  "description": "A RESTFul API tool in Terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "restx": "bin/restx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryancui-/rest-tool.git"
+  },
+  "author": "ryancui-",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryancui-/rest-tool/issues"
+  },
+  "homepage": "https://github.com/ryancui-/rest-tool#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "form-data": "^2.3.3",
+    "fx": "^11.0.1",
+    "inquirer": "^6.2.2",
+    "ora": "^3.0.0",
+    "querystring": "^0.2.0"
+  }
+}
