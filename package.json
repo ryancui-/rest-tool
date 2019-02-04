@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "restx": "bin/restx.js"
+    "rest": "bin/restx.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "form-data": "^2.3.3",
     "fx": "^11.0.1",
     "inquirer": "^6.2.2",
+    "node-storage": "0.0.7",
     "ora": "^3.0.0",
     "querystring": "^0.2.0"
   }
